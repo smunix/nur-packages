@@ -1,5 +1,22 @@
 {
   "nodes": {
+    "dtrx": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1637792987,
+        "narHash": "sha256-tc2+0sVf7XTBRPf2gqgKzKahxuY5QfoQf0SxqsWM1pY=",
+        "owner": "dtrx-py",
+        "repo": "dtrx",
+        "rev": "6396a9767384e499f7c03c09e0d44530fba12271",
+        "type": "github"
+      },
+      "original": {
+        "owner": "dtrx-py",
+        "ref": "master",
+        "repo": "dtrx",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1624561540,
@@ -18,6 +35,7 @@
     },
     "root": {
       "inputs": {
+        "dtrx": "dtrx",
         "nixpkgs": "nixpkgs"
       }
     }
